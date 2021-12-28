@@ -20,7 +20,7 @@ public class Ultrabook extends Computer{
 		inputColor();
 	}
 	
-	public void informaCaracteristicas() {
-		super.informaCaracteristicas();
+	public void setCharacteristics() {
+		super.setCharacteristics();
 	}
 }
