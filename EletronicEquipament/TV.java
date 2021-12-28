@@ -15,7 +15,7 @@ public class TV extends Eletrodomestic{
 		this.inches = inches;
 	}
 	
-	public void retornaPotency() {
+	public void returnPotency() {
 		
 		System.out.println("The TV " + getName() + " have the potency of: " + getPotency());
 	}
