@@ -3,6 +3,6 @@ public class SubstanciaPura {
 		System.out.println("Entered in bolling point");
 	}
 	public void startFusionPoint(double temp) {
-		System.out.println("Entrou em fus�o");
+		System.out.println("Entered in fusion point");
 	}
 }
