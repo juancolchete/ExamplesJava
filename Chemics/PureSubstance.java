@@ -1,4 +1,4 @@
-public class SubstanciaPura {
+public class PureSubstance {
 	public void startBoilingPoint(double temperature) {
 		System.out.println("Entered in bolling point");
 	}
