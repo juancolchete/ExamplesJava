@@ -20,7 +20,7 @@ public class TV extends Eletrodomestic{
 		System.out.println("The TV " + getName() + " have the potency of: " + getPotency());
 	}
 	
-	public void retornaEstado() {
+	public void returnEstate() {
 		
 		System.out.println("The TV is " + isEstado());
 	}
