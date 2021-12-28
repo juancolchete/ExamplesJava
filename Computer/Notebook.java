@@ -14,7 +14,7 @@ public class Notebook extends Computer {
 		super.inputColor();
 	}
 	
-	public void defineTelaCor() {
+	public void inputScreenColor() {
 		inputScreen();
 		inputColor();
 	}
