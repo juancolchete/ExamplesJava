@@ -6,19 +6,19 @@ public class main {
 		desktop.inputScreen();
 		desktop.inputColor();
 		desktop.inputScreenColor();
-		desktop.informaCaracteristicas();
+		desktop.setCharacteristics();
 		
 		Notebook notebooks = new Notebook();	
 		notebooks.inputScreen();
 		notebooks.inputColor();
 		notebooks.inputScreenColor();
-		notebooks.informaCaracteristicas();
+		notebooks.setCharacteristics();
 		
 		Ultrabook ultrabooks = new Ultrabook();	
 		ultrabooks.inputScreen();
 		ultrabooks.inputColor();
 		ultrabooks.inputScreenColor();
-		ultrabooks.informaCaracteristicas();
+		ultrabooks.setCharacteristics();
 		
 	}
 
