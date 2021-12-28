@@ -27,7 +27,7 @@ public class WaterTap extends Hydraulic {
 		System.out.println("Ther water trap is " + isEstado());
 	}
 	
-	public void retornaMaterial() {
+	public void returnMaterial() {
 			
 		System.out.println("Ther water trap " + getName() + " is made of: " + getMaterial());
 	}
