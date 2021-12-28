@@ -1,14 +1,12 @@
-package Questao2;
-
 public class Agua extends SubstanciaPura{
 	public void entrarPontoDeEbulicao(double temp) {
 		if(temp >= 100) {
-			System.out.println("Entrou em ebulição");
+			System.out.println("Entrou em ebuliï¿½ï¿½o");
 		}
 	}
 	public void entrarPontoDeFusao(double temp) {
 		if(temp >= 0) {
-			System.out.println("Entrou em fusão");
+			System.out.println("Entrou em fusï¿½o");
 		}
 	}
 }
