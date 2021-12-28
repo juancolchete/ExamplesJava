@@ -4,17 +4,17 @@ public class Main {
 	
 		Equipment equipment = new Equipment("Computer","DELL",10.0,200.0,500,false);
 		
-		Eletrodomestic eletroD = new Eletrodomestic("Microondas","Philco",10.0,200.0,500,false,"Cozinha");
+		Eletrodomestic eletroD = new Eletrodomestic("Micro Wave","Philco",10.0,200.0,500,false,"Kitchen");
 		
-		Eletromec�nicos eletroM = new Eletromec�nicos("Escada rolante","Philco",10.0,200.0,500,false,520.0);
+		Eletromecanicos eletroM = new Eletromecanicos("Escalator","Philco",10.0,200.0,500,false,520.0);
 		
-		Hydraulic hidro = new Hydraulic("Macaco hidr�ulico","3M",10.0,200.0,500,false,20.0);
+		Hydraulic hidro = new Hydraulic("Jack","3M",10.0,200.0,500,false,20.0);
 		
-		WaterTap torneira = new WaterTap("3M","3M",10.0,200.0,500,false,566, "Pl�stico");
+		WaterTap torneira = new WaterTap("3M","3M",10.0,200.0,500,false,566, "Plastic");
 		
-		MotoresEletricos motoresE = new MotoresEletricos("Motor tesla","Tesla",10.0,200.0,500,false,520.0, 1233);
+		MotoresEletricos motoresE = new MotoresEletricos("Tesla engine","Tesla",10.0,200.0,500,false,520.0, 1233);
 		
-		TV tv = new TV("TV LG","Philco",10.0,200.0,500,false,"Eletrodom�stico", 0);
+		TV tv = new TV("TV LG","Philco",10.0,200.0,500,false,"Eletrodomestic", 0);
 		
 		
 		equipment.retornaDados();
