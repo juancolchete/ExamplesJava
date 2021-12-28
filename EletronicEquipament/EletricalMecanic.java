@@ -17,7 +17,7 @@ public class EletricalMecanic extends Equipment {
 	this.force = force;
    }
 
-	public void retornaPotency() {
+	public void returnPotency() {
 		
 		System.out.println("The eletronic equipament " + getRPM() + " tem potency of: " + getPotency());
 	}
