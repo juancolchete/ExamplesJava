@@ -1,14 +1,12 @@
-package Questao2;
-
 public class Alcool extends SubstanciaPura{
 	public void entrarPontoDeEbulicao(double temp) {
 		if(temp >= 78.4) {
-			System.out.println("Entrou em ebulição");
+			System.out.println("Entrou em ebuliï¿½ï¿½o");
 		}
 	}
 	public void entrarPontoDeFusao(double temp) {
 		if(temp >= 0) {
-			System.out.println("Entrou em fusão");
+			System.out.println("Entrou em fusï¿½o");
 		}
 	}
 }
