@@ -5,19 +5,19 @@ public class main {
 		Desktop desktop = new Desktop();	
 		desktop.inputScreen();
 		desktop.inputColor();
-		desktop.defineTelaCor();
+		desktop.inputScreenColor();
 		desktop.informaCaracteristicas();
 		
 		Notebook notebooks = new Notebook();	
 		notebooks.inputScreen();
 		notebooks.inputColor();
-		notebooks.defineTelaCor();
+		notebooks.inputScreenColor();
 		notebooks.informaCaracteristicas();
 		
 		Ultrabook ultrabooks = new Ultrabook();	
 		ultrabooks.inputScreen();
 		ultrabooks.inputColor();
-		ultrabooks.defineTelaCor();
+		ultrabooks.inputScreenColor();
 		ultrabooks.informaCaracteristicas();
 		
 	}
