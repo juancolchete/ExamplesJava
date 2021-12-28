@@ -2,7 +2,7 @@ public class Main {
 
 	public static void main(String[] args) {
 	
-		Equipment equipment = new Equipment("Computador","DELL",10.0,200.0,500,false);
+		Equipment equipment = new Equipment("Computer","DELL",10.0,200.0,500,false);
 		
 		Eletrodomestic eletroD = new Eletrodomestic("Microondas","Philco",10.0,200.0,500,false,"Cozinha");
 		
