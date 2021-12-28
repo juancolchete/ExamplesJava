@@ -1,4 +1,4 @@
-public class Agua extends SubstanciaPura{
+public class Agua extends PureSubstance{
 	public void startBoilingPoint(double temp) {
 		if(temp >= 100) {
 			System.out.println("Entered in bolling point");
