@@ -17,7 +17,7 @@ public class WaterTap extends Hydraulic {
 		this.material = material;
 	}
 	
-	public void retornaPotency() {
+	public void returnPotency() {
 		
 		System.out.println("Ther water trap " + getName() + " have the potency of: " + getPotency());
 	}
