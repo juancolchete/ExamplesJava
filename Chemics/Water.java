@@ -6,7 +6,7 @@ public class Agua extends SubstanciaPura{
 	}
 	public void startFusionPoint(double temp) {
 		if(temp >= 0) {
-			System.out.println("Entrou em fus�o");
+			System.out.println("Entered in fusion point");
 		}
 	}
 }
