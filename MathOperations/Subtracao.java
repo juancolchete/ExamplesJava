@@ -1,5 +1,3 @@
-package Questao3;
-
 public class Subtracao {
 	public int calcular(int x, int y) {
 		return x - y;
