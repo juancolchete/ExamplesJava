@@ -41,7 +41,7 @@ public abstract class Computer {
 	    this.cor = cor;
 	}
 	
-	public void defineTelaCor() {
+	public void inputScreenColor() {
 		inputScreen();
 		inputColor();
 	}
