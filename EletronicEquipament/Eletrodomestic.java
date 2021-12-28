@@ -24,7 +24,7 @@ public class Eletrodomestic extends Equipment{
 		System.out.println("The eltrodomestic " + getName() + " have : " + getPotency());
 	}
 	
-	public void retornaEstado() {
+	public void returnEstate() {
 		
 		System.out.println("The eltrodomestic is " + isEstado());
 	}
