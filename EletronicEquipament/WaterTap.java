@@ -22,7 +22,7 @@ public class WaterTap extends Hydraulic {
 		System.out.println("Ther water trap " + getName() + " have the potency of: " + getPotency());
 	}
 	
-	public void retornaEstado() {
+	public void returnEstate() {
 		
 		System.out.println("Ther water trap is " + isEstado());
 	}
