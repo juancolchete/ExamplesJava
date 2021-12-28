@@ -20,7 +20,7 @@ public class EletricalEngines extends EletricalMecanic {
 		System.out.println("The eletric engine" + getName() + " tem pot�ncia de: " + getPotency());
 	}
 	
-	public void returnEstado() {
+	public void returnEstate() {
 		
 		System.out.println("The eletric engine is" + isOn());
 	}
