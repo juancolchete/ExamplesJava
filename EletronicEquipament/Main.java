@@ -19,17 +19,17 @@ public class Main {
 		
 		equipment.retornaDados();
 		
-		hidro.retornaPotency();
+		hidro.returnPotency();
 		hidro.retornaEstado();
 		hidro.retornaCapacidade();	
 		
 
-		eletroD.retornaPotency();
+		eletroD.returnPotency();
 		eletroD.retornaEstado();
 		eletroD.retornaCategory();
 		
 
-		tv.retornaPotency();
+		tv.returnPotency();
 		tv.retornaEstado();
 		tv.retornaInches();
 
