@@ -47,7 +47,7 @@ public abstract class Computer {
 	}
 	
 
-	public void informaCaracteristicas() {
+	public void setCharacteristics() {
 			
 		System.out.println("Screen size: "+ this.tamanhoTela);
 		System.out.println("Screen color: "+this.cor);
