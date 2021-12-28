@@ -1,10 +1,8 @@
-package Questao2;
-
 public class SubstanciaPura {
 	public void entrarPontoDeEbulicao(double temp) {
-		System.out.println("Entrou em ebulição");
+		System.out.println("Entrou em ebuliï¿½ï¿½o");
 	}
 	public void entrarPontoDeFusao(double temp) {
-		System.out.println("Entrou em fusão");
+		System.out.println("Entrou em fusï¿½o");
 	}
 }
