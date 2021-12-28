@@ -1,8 +1,8 @@
 public class SubstanciaPura {
-	public void entrarPontoDeEbulicao(double temp) {
+	public void startBoilingPoint(double temp) {
 		System.out.println("Entrou em ebuli��o");
 	}
-	public void entrarPontoDeFusao(double temp) {
+	public void startFusionPoint(double temp) {
 		System.out.println("Entrou em fus�o");
 	}
 }
