@@ -19,7 +19,7 @@ public class Eletrodomestic extends Equipment{
 	}
 
 
-	public void retornaPotency() {
+	public void returnPotency() {
 		
 		System.out.println("The eltrodomestic " + getName() + " have : " + getPotency());
 	}
