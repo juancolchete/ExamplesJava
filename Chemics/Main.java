@@ -1,14 +1,14 @@
 public class Main {
 	public static void main(String[] args) {
-		SubstanciaPura objsubpura = new SubstanciaPura();
-		objsubpura.startBoilingPoint(100);
-		objsubpura.startFusionPoint(100);
+		PureSubstance objPureSubstance = new PureSubstance();
+		objPureSubstance.startBoilingPoint(100);
+		objPureSubstance.startFusionPoint(100);
 		
-		Agua objagua = new Agua();
-		objagua.startBoilingPoint(100);
-		objagua.startFusionPoint(0);
-		objagua.startBoilingPoint(99);
-		objagua.startFusionPoint(-1);
+		Water objWater = new Water();
+		objWater.startBoilingPoint(100);
+		objWater.startFusionPoint(0);
+		objWater.startBoilingPoint(99);
+		objWater.startFusionPoint(-1);
 		
 		Amonia objamonia = new Amonia();
 		objamonia.startBoilingPoint(-33.34);
@@ -16,10 +16,10 @@ public class Main {
 		objamonia.startBoilingPoint(-33.35);
 		objamonia.startFusionPoint(-77.74);
 		
-		Alcool objalcool = new Alcool();
-		objalcool.startBoilingPoint(78.4);
-		objalcool.startFusionPoint(0);
-		objalcool.startBoilingPoint(78.3);
-		objalcool.startFusionPoint(-1);
+		Alcohol objAlcohol = new Alcohol();
+		objAlcohol.startBoilingPoint(78.4);
+		objAlcohol.startFusionPoint(0);
+		objAlcohol.startBoilingPoint(78.3);
+		objAlcohol.startFusionPoint(-1);
 	}
 }
