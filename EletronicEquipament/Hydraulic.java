@@ -22,7 +22,7 @@ public class Hydraulic extends Equipment {
 			System.out.println("The hydraulic equipament " + getName() + " have the pontecy: " + getPotency());
 	}
 		
-		public void retornaEstado() {
+		public void returnEstate() {
 			
 			System.out.println("The hydraulic equipament is " + isEstado());
 	}
