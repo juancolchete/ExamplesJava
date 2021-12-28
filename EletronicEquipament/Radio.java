@@ -15,7 +15,7 @@ public class Radio extends Eletrodomestic{
 		this.frequency = frequency;
 	}
 	
-	public void retornaPotency() {
+	public void returnPotency() {
 		
 		System.out.println("The radio " + getName() + "have the potency of: " + getPotency());
 	}
