@@ -15,17 +15,17 @@ public class EletricalEngines extends EletricalMecanic {
 		RPM = rPM;
 	}
 	
-	public void retornaPotency() {
+	public void returnPotency() {
 		
 		System.out.println("The eletric engine" + getName() + " tem pot�ncia de: " + getPotency());
 	}
 	
-	public void retornaEstado() {
+	public void returnEstado() {
 		
 		System.out.println("The eletric engine is" + isOn());
 	}
 	
-	public void retornaRPM() {
+	public void returnRPM() {
 			
 		System.out.println("The eletric engine" + getName() + " have: " + getRPM()+ " RPM");
 	}
