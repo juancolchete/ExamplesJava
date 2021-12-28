@@ -17,7 +17,7 @@ public class Hydraulic extends Equipment {
 		this.capacity = capacity;
 	}
 
-	public void retornaPotency() {
+	public void returnPotency() {
 			
 			System.out.println("The hydraulic equipament " + getName() + " have the pontecy: " + getPotency());
 	}
