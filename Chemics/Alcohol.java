@@ -1,12 +1,12 @@
-public class Alcool extends SubstanciaPura{
-	public void entrarPontoDeEbulicao(double temp) {
-		if(temp >= 78.4) {
-			System.out.println("Entrou em ebuli��o");
+public class Alcohol extends PureSubstance{
+	public void startBoilingPoint(double temperature) {
+		if(temperature >= 78.4) {
+			System.out.println("Entered in bolling point");
 		}
 	}
-	public void entrarPontoDeFusao(double temp) {
-		if(temp >= 0) {
-			System.out.println("Entrou em fus�o");
+	public void startFusionPoint(double temperature) {
+		if(temperature >= 0) {
+			System.out.println("Entered in fusion point");
 		}
 	}
 }
