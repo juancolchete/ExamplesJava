@@ -22,7 +22,7 @@ public class EletricalMecanic extends Equipment {
 		System.out.println("The eletronic equipament " + getRPM() + " tem potency of: " + getPotency());
 	}
 	
-	public void retornaEstado() {
+	public void returnEstate() {
 		
 		System.out.println("The eletronic equipament is " + isOn());
 	}
