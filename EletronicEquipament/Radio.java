@@ -20,7 +20,7 @@ public class Radio extends Eletrodomestic{
 		System.out.println("The radio " + getName() + "have the potency of: " + getPotency());
 	}
 	
-	public void retornaEstado() {
+	public void returnEstate() {
 		
 		System.out.println("The radio " + isEstado());
 	}
