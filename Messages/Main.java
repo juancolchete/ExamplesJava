@@ -1,17 +1,17 @@
 
-public class AP3_2021_1_Q2 {
+public class Main {
 
 	public static void main(String[] args) {
 		Contato c1 = new Contato("Fulano");
 		Contato c2 = new Contato("Ciclano");
 		Contato c3 = new Contato("Beltrano");
-		Grupo amigos = new Grupo("Amizade");
+		Grupo amigos = new Grupo("Friendship");
 		amigos.adicionaContato(c1);
 		amigos.adicionaContato(c2);
-		c3.enviaMensagem(amigos,"Olá amigos!");		
-		c1.enviaMensagem(amigos,"Olá a todos!");
-		c1.enviaMensagem(c2,"Bom dia!");
-		c1.enviaMensagem(amigos,"Olá a todos!");
+		c3.enviaMensagem(amigos,"Hi friends!");		
+		c1.enviaMensagem(amigos,"Hello evoryone!");
+		c1.enviaMensagem(c2,"Good morning!");
+		c1.enviaMensagem(amigos,"Hello everyone!");
 	}
 
 }
