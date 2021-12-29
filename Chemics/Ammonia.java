@@ -1,4 +1,4 @@
-public class Amonia extends PureSubstance{
+public class Ammonia extends PureSubstance{
 	public void startBoilingPoint(double temperature) {
 		if(temperature >= -33.34) {
 			System.out.println("Entered in bolling point");
