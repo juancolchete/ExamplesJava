@@ -10,11 +10,11 @@ public class Main {
 		objWater.startBoilingPoint(99);
 		objWater.startFusionPoint(-1);
 		
-		Amonia objamonia = new Amonia();
-		objamonia.startBoilingPoint(-33.34);
-		objamonia.startFusionPoint(-77.73);
-		objamonia.startBoilingPoint(-33.35);
-		objamonia.startFusionPoint(-77.74);
+		Ammonia objAmmonia = new Ammonia();
+		objAmmonia.startBoilingPoint(-33.34);
+		objAmmonia.startFusionPoint(-77.73);
+		objAmmonia.startBoilingPoint(-33.35);
+		objAmmonia.startFusionPoint(-77.74);
 		
 		Alcohol objAlcohol = new Alcohol();
 		objAlcohol.startBoilingPoint(78.4);
